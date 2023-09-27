@@ -1,0 +1,5 @@
+package com.examen.springboot.app.alumnos.models.repository;
+
+public interface AlumnoRepository {
+
+}

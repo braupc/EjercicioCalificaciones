@@ -1,0 +1,34 @@
+package com.examen.springboot.app.calificaciones.models;
+
+public class Calificacion {
+	
+	private Alumno alumno;
+	private Double calificacion;
+	
+	public Calificacion(Alumno alumno, Double calificacion) {
+		
+		super();
+		this.alumno = alumno;
+		this.calificacion = calificacion;
+	}
+	
+	public Calificacion() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public Alumno getAlumno() {
+		return alumno;
+	}
+	public void setAlumno(Alumno alumno) {
+		this.alumno = alumno;
+	}
+	public Double getCalificacion() {
+		return calificacion;
+	}
+	public void setCalificacion(Double calificacion) {
+		this.calificacion = calificacion;
+	}
+	
+
+}

@@ -1,0 +1,22 @@
+package com.examen.springboot.app.alumnos.models.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.examen.springboot.app.alumnos.models.entity.Alumno;
+
+@Service
+public class AlumnoServiceImpl implements IAlumnoService{
+	
+	
+
+	@Override
+	@Transactional(readOnly = true)
+	public List<Alumno> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

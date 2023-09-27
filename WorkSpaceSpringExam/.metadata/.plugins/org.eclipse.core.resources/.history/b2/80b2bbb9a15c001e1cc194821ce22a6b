@@ -1,0 +1,1 @@
+insert into alumnos (nombre, apellisdo_materno, apellido_materno, materia) values ('Braulio', 'Pimentel, 'Castañeda', 'Programación');

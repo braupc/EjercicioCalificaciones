@@ -1,0 +1,5 @@
+package com.examen.springboot.app.calificaciones.controller;
+
+public class CalificacionController {
+
+}

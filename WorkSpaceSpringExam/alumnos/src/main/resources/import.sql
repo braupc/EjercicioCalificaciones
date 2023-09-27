@@ -1,0 +1,2 @@
+insert into alumnos (id, nombre, apellido_paterno, apellido_materno, materia) values (2019, 'Braulio', 'Pimentel', 'Castañeda', 'Programación');
+insert into alumnos (id, nombre, apellido_paterno, apellido_materno, materia) values (2020, 'Jose', 'Romulo', 'Sosa', 'Quimica');

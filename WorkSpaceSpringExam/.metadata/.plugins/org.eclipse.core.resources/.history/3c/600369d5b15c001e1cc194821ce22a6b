@@ -1,0 +1,9 @@
+package com.examen.springboot.app.calificaciones.repository;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.examen.springboot.app.alumnos.models.entity.Alumno;
+
+public interface CalificacionRepository extends CrudRepository<Alumno, Long>{
+
+}

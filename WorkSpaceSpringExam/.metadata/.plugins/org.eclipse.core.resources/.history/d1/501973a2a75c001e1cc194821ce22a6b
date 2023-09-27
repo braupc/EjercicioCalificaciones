@@ -1,0 +1,10 @@
+package com.examen.springboot.app.calificaciones.service;
+
+import com.examen.springboot.app.calificaciones.models.Calificacion;
+
+public interface CalificacionService {
+
+	publicList<Calificacion> find all();
+	public Calificacion findById();
+	
+}

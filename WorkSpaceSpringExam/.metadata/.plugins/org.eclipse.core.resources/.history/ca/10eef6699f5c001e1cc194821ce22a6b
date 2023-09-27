@@ -1,0 +1,5 @@
+package com.examen.springboot.app.alumnos.models.service;
+
+public class AlumnoServiceImpl {
+
+}

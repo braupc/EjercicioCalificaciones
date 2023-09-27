@@ -1,0 +1,5 @@
+package com.examen.springboot.app.alumnos.controllers;
+
+public class AlumnoController {
+
+}

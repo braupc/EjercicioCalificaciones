@@ -1,0 +1,36 @@
+package com.examen.springboot.app.calificaciones.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.examen.springboot.app.calificaciones.models.Calificacion;
+
+@Service
+public class CalificacionServiceImpl implements CalificacionService {
+
+	@Override
+	public List<Calificacion> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void registrarCalificacion(Long idAlumno, String materia, String Calificacion) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void editaCalificacion(Long idAlumno, String materia, String Calificacion) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void eliminalificacion(Long idAlumno, String materia) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

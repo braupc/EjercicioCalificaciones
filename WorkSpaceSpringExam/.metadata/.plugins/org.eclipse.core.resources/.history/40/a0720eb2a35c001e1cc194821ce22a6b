@@ -1,0 +1,11 @@
+package com.examen.springboot.app.calificaciones.models;
+
+public class Alumno {
+	
+	private Long id;
+	private String nombre;
+	private String apMaterno;
+	private String apPaterno;
+	
+
+}

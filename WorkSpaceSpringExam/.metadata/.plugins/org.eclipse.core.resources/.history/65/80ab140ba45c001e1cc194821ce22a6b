@@ -1,0 +1,5 @@
+package com.examen.springboot.app.calificaciones.models;
+
+public class Calificacion {
+
+}

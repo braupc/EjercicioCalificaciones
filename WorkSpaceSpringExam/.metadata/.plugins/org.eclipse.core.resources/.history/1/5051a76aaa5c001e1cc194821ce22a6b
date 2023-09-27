@@ -1,0 +1,8 @@
+package com.examen.springboot.app.calificaciones;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+
+}

@@ -1,0 +1,12 @@
+package com.examen.springboot.app.calificaciones.service;
+
+import java.util.List;
+
+import com.examen.springboot.app.calificaciones.models.Calificacion;
+
+public interface CalificacionService {
+
+	public List<Calificacion> findAll();
+	public Calificacion registrarCalificacion(Long id, String materia);
+	
+}
